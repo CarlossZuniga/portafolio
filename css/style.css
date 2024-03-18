@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-texto: #1A1919;
+	--color-naranja:#f18818;
+	--color-morado: #3e2981;
+}
+
+body{
+	color: #fff;
+	font-family: "Montserrat";
+	font-size: 18px;
+}
+
+/*HEADER*/
+header{
+	background-color: #000;
+	padding: 10px 5px;
+}
+
+/*FOOTER*/
+footer{
+	background-color: #000;
+	padding: 50px 0 30px;
+	color: #fff;
+}
+footer a{
+	font-size: 24px;
+}
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+.copy{
+	text-align: center;
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+/*INDEX-HERO*/
+#hero{
+	background-image: url("../img/index-fondo-hero.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 300px 0;
+}
+#hero h1{
+	font-size: 75px;
+	font-weight: 700;
+	text-align: center;
+}
+#hero p{
+	text-align: center;
+}
+
+/*INDEX-ASPECTOS*/
+#aspectos h5{
+	font-size: 50px;
+	font-weight: 600;
+}
+
+/*ACERCA DE*/
+#acercade{
+	color: var(--color-texto);
+	background-color: #fff;
+	padding: 30px 0;
+}
+#acercade h1{
+	font-size: 50px;
+	font-weight: 600;
+	text-align: center;
+	padding: 0 0 30px;
+}
+
+/*PORTAFOLIO*/
+#fotografia{
+	background-color: #fff;
+	color: #fff;
+	padding: 0 0 5%;
+}
+#navport{
+	padding: 7% 0;
+	background-color: #000;
+}
+#navport .navfoto{
+	background-image: url("../img/foto16.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	cursor: pointer;
+	text-align: center;
+}
+#navport .navfoto h4{
+	font-size: 25px;
+	font-weight: 800;
+}
+#navport .navvideo{
+	background-image: url("../img/fondovideo2.gif");
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	border-radius: 50px;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+	cursor: pointer;
+	text-align: center;
+}
+#navport .navvideo h4{
+	font-size: 25px;
+	font-weight: 800;
+}
+.nombres-fotos{
+	font-weight: 600;
+	color: var(--color-texto);
+}
+.tipo-foto{
+	font-size: 12px;
+	font-weight: 200;
+	opacity: 0.7;
+	color: var(--color-texto);
+}
+.altura-f-x{
+	margin-top: 25%;
+}
+.titulo-foto{
+	background-image: url("../img/foto14.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(9,18,17,0.60);
+	background-blend-mode: multiply;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	padding: 12% 0;
+}
+#videos{
+	background-color: #000;
+	color: #fff;
+	padding: 0 0 5%;
+
+}
+.titulo-video{
+	background-image: url("../img/fondovideo.gif");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(9,18,17,0.60);
+	background-blend-mode: multiply;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 600;
+	padding: 12% 0;
+}
+
+/*SERVICIOS*/
+#servicio-foto{
+	background-image: url("../img/foto21.jpg");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.70);
+	background-blend-mode: multiply;
+	padding: 15% 0
+}
+#servicio-video{
+	background-image: url("../img/serviciovideo.png");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.70);
+	background-blend-mode: multiply;
+	padding: 15% 0
+}
+#servicio-web{
+	background-image: url("../img/servicioweb.png");
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.70);
+	background-blend-mode: multiply;
+	padding: 15% 0
+}
+
+/*CONTACTO-FORMS*/
+#contacto{
+	color: var(--color-texto);
+	background-color: #fff;
+	padding: 30px 0;
+	text-align: center
+}
+.form-control{
+	border-color: #000;
+}
+.btn-contact{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border: 2px solid #FFFFFF;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-weight: 700;
+	font-size: 18px;
+}
+.p-form{
+	padding: 0 20%;
+}
+.btn-contact:hover{
+	background-color: var(--color-naranja);
+	border-color: var(--color-naranja);
+	color: #fff;
+}
